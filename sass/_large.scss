@@ -1,0 +1,24 @@
+@media only screen and (min-width:  1024px){
+	.row{
+			grid-template-columns: auto auto auto auto;
+	}
+	.limited{
+		max-width: 800px;
+		margin: auto;
+	}
+	/*special offers*/
+
+	/*gallery*/
+	.gallery-display{
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	.gallery-img{
+	
+	}
+	.grid-container{
+		grid-template-columns: auto auto auto auto;
+
+	}
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+	<title>Home | juliez coffee spot</title>
+</head>
+<body>
+	<header>
+       <section class="header limited">
+        <div>
+           <div class="logo-img">
+                <img src="img/coffee-spot.jpg" alt="juliez coffee-spot logo" class="logo">
+           </div>
+        </div>
+        <div>
+            <h1 class="lead">Juli's Coffee Spot</h1>
+            <h3>Best spot for coffee</h3>
+        </div>
+       </section>
+ 
+	</header>
+	<nav class="nav-bar">
+        <button id="humbergarbtn">&#9776</button>
+        <ul class="nav-ul limited hide-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="specialoffers.html">Special Offers</a></li>
+            <li><a href="coffeelist.html">Pizza List</a></li>
+            <li><a href="">Order Online</a></li>
+        </ul>
+	</nav>
+	<main>
+        <section class="banner-sm banner-md banner-lg">
+            
+        </section>
+        <article class="special-offers limited">
+            <h1 class="heading">Special Offers</h1>
+            <section class="special-offers-list">
+                <section class="special-offer offer-1">
+                        <h3 class="special-offer-title">Title</h3>
+                        <img src="img/coffee-img-3.jpg" alt="special offer">
+                        <p class="special-offer-price">PRICE: $ 5.00</p>
+
+                </section>
+                <section class="special-offer offer-2">
+                    <h3 class="special-offer-title">Title</h3>
+                    <img src="img/coffee-img-5.jpg" alt="special offer">
+                    <p class="special-offer-price">PRICE: $ 5.00</p>
+
+                </section>
+                  <section class="special-offer offer-1">
+                        <h3 class="special-offer-title">Title</h3>
+                        <img src="img/coffee-img-5.jpg" alt="special offer">
+                        <p class="special-offer-price">PRICE: $ 5.00</p>
+
+                </section>
+                  <section class="special-offer offer-2">
+                    <h3 class="special-offer-title">Title</h3>
+                    <img src="img/coffee-img-3.jpg" alt="special offer">
+                    <p class="special-offer-price">PRICE: $ 5.00</p>
+
+                </section>
+
+
+            </section>
+        </article>
+		    
+    </main>
+        <footer class="">
+            <div class="row limited">
+           
+            <section class="column small-12 medium-6 large-3">
+                <h2>Location</h2>
+                <ul>
+                    <li>Julie's Coffe Shop</li>
+                    <li>Bunamwaya Street</li> 
+                    <li>Uganda</li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>Company</h2>
+                <ul>
+                    <li>Catering</li>
+                    <li>Delivery</li> 
+                    <li>Swag Shop</li>
+                    <li>Support</li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h2>Social</h2>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li> 
+                    <li>Instagram</li>
+                </ul>
+            </section>
+             <section class="column small-12 medium-6 large-3">
+                <h2>About Us</h2>
+                <ul>
+                    <li><img src="img/coffee-spot.jpg" alt="logo" height="100" width="100"></li>
+                </ul>
+            </section>
+                <p>© 2020 • all rights reserved.</p>
+
+            </div> <!-- end row -->
+        </footer>
+        <script>
+           window.addEventListener("DOMContentLoaded", ()=>{
+            //hide show menu links on the mobile view
+/*             let navButton = document.getElementById('humbergarbtn');
+            let navLinks = document.querySelector('.nav-ul')
+            navButton.addEventListener('click', ()=>{
+                if(!navLinks.classList.contains('show-nav')){
+                    navLinks.classList.add('show-nav')
+                }else{
+                    navLinks.classList.remove('show-nav')  
+                }
+            })*/
+            //show display method two
+            let toggleMenu = ()=>{
+                document.querySelector('.nav-ul').classList.toggle('show-nav');
+
+            }
+            let humbergarbtn = document.getElementById('humbergarbtn');
+            humbergarbtn.onclick = toggleMenu;
+           })
+        </script>
+		
+</body>
+</html>

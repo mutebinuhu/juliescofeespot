@@ -1,0 +1,86 @@
+@media only screen and (min-width:  768px){
+	.row{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+	.header{
+	display: flex;
+	height: 140px;
+	}
+	section .lead, section h3{
+		margin-left: 10px;
+	}
+	.heading{
+		margin-left: 20px;
+	}
+	/*nav styles*/
+	button#humbergarbtn{
+		display: none;
+	}
+	nav{
+		height: 38px;
+	}
+	nav ul a:hover{
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	.nav-ul{
+		display: flex;
+	}
+	.banner-md{
+		background-image:url('../img/coffee-img-2.jpg');
+		height: 300px;
+
+	}
+	/*special offers page*/
+	.special-offers-list{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+	.special-offer img{
+		height: 200px;
+		width: 350px;
+	}
+	/*gallery*/
+	.grid-container{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		background-color: #f1f1f1;
+		padding: 20px;
+		grid-gap: 10px;
+	}
+	.grid-item{
+		background-color: #fefefe;
+		text-align: center;
+	}
+	.grid-item > img{
+		width: 100%;
+		height: 100%;
+		padding: 5px;
+	}
+	.grid-item{
+		position: relative;
+	}
+	.grid-item > p{
+		background-color: rgba(255, 255, 255, .5);
+		position: absolute;
+		top: 20px;
+		left: 5px;
+		margin: 0;
+		padding: 8px 5px 8px 5px;
+		font-weight: 600;
+	}
+		.grid-item > h4{
+		background-color: whitesmoke;
+		position: absolute;
+		bottom:0;
+		right: 0;
+		margin: 0;
+		padding: 8px 5px 8px 5px;
+		font-weight: 600;
+		letter-spacing: 2px;
+		border-radius: 5px;
+	}
+
+	
+}
+//end of medium size screens
